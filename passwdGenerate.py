@@ -2,7 +2,7 @@ import string
 import random 
 
 print("Welcome to Password Generator")
-print("*****************************")
+print("*****************************\n")
     
 passwdLength = int(input("Input length of password: "))
 passwdType = int(input("Enter Choice (1 to include characters and numbers, 2 to include numbers and symbols, 3 to include characters, numbers and symbols): "))
@@ -29,7 +29,7 @@ if passwdType == 1:
     for i in password:
         usrPassword+=i
 
-    print(f"Your generated password is: {usrPassword}")
+    print(f"Your generated password is: {usrPassword}\n")
 elif passwdType == 2:
         
     # if(passwdType==2 ):
@@ -44,7 +44,7 @@ elif passwdType == 2:
     for i in password:
         usrPassword+=i
 
-    print(f"Your generated password is: {usrPassword}")
+    print(f"Your generated password is: {usrPassword}\n")
 else :
      # if(passwdType==3):
     random.shuffle(choice3)
@@ -58,7 +58,7 @@ else :
     for i in password:
         usrPassword+=i
 
-    print(f"Your generated password is: {usrPassword}")
+    print(f"Your generated password is: {usrPassword}\n")
     
 print("************************END***************************")
 
