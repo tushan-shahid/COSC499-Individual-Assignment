@@ -7,10 +7,11 @@ print("*****************************\n")
 passwdLength = int(input("Input length of password: "))
 passwdType = int(input("Enter Choice (1 to include characters and numbers, 2 to include numbers and symbols, 3 to include characters, numbers and symbols): "))
 
+#DATA TYPES FOR PASSWORD
 passwdStr = list(string.ascii_lowercase + string.ascii_uppercase)
 passwdInt = list(string.digits)
 passwdSym = list("!@#$%^&*()_+?><~")
-
+#CHOICES OF PASSWORD
 choice1 = passwdStr+passwdInt
 choice2 = passwdInt+passwdSym
 choice3 = passwdStr+passwdInt+passwdSym
